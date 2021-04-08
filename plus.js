@@ -1,1 +1,8 @@
-
+function plus()
+{
+  function game()
+  {
+    
+  }
+  
+}
