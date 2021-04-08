@@ -28,6 +28,21 @@ function plus()
       ctx.strokeStyle = color;
       ctx.rect(20, 20, width, height);
     },
+    title: (setTitle)=>{
+      var titleDone = setTitle;
+    },
+    
+    description: (setDesc)=>{
+      var descDone = setDesc;
+    },
+     
+    version: (setVer)=>{
+      var verDone = setVer;
+    },
+     
+    start: (setDiv)=>{
+      var divDone = setDiv;
+    },
 
     // API CONNECTION
     api: (connection, connection2, connection3)=>{
