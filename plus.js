@@ -21,6 +21,7 @@ function plus()
       const ctx = canvas.getContext'2d');
       ctx.beginPath();
       ctx.strokeStyle = color;
+      ctx.rect(20, 20, width, height);
     }
   }
   
