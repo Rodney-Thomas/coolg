@@ -12,7 +12,7 @@ function plus()
         ctx.fillText(setText, xPos, yPos);
       }
     },
-    ent: (type, color, xPos, yPos, width, height)=>{
+    entity: (type, color, xPos, yPos, width, height)=>{
       if (canvas.getContext) {
         const ctx = canvas.getContext('2d');
         ctx.fillStyle = color;
