@@ -28,6 +28,7 @@ function plus()
       ctx.strokeStyle = color;
       ctx.rect(20, 20, width, height);
     },
+      
     title: (setTitle)=>{
       var titleDone = setTitle;
     },
@@ -38,10 +39,6 @@ function plus()
      
     version: (setVer)=>{
       var verDone = setVer;
-    },
-     
-    start: (setDiv)=>{
-      var divDone = setDiv;
     },
 
     // API CONNECTION
